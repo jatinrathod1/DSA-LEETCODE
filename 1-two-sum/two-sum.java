@@ -1,6 +1,6 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-          Map<Integer, Integer> map = new HashMap<>();
+            Map<Integer, Integer> map = new HashMap<>();
 
         for (int j = 0; j < nums.length; j++) {
             int complete = target - nums[j];
@@ -13,4 +13,5 @@ class Solution {
         throw new IllegalArgumentException("error");
     
     }
-}
+    
+};
