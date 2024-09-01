@@ -10,10 +10,11 @@ class Solution {
                     return false;
                 }
                 char poped = stack.pop();
-                if ((s.charAt(i) == '}' && poped != '{') || (s.charAt(i) == ')' && poped != '(')
-                        || (s.charAt(i) == ']' && poped != '[')) {
+                if ((s.charAt(i) == '}' && poped != '{')
+                 || (s.charAt(i) == ')' && poped != '(')
+                 || (s.charAt(i) == ']' && poped != '[')) 
+                {
                     return false;
-
                 }
             }
         }
