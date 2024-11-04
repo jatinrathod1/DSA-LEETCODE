@@ -15,7 +15,6 @@ class Solution {
                 an+=ch;
                 c=c-9;
             }
-            
             an+=c;
             an+=ch;
             i--;
